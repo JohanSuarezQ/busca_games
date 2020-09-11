@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/BuscaGames/static/css/main.d8fefe28.chunk.css",
+    "main.js": "/BuscaGames/static/js/main.75d37fd1.chunk.js",
+    "main.js.map": "/BuscaGames/static/js/main.75d37fd1.chunk.js.map",
+    "runtime-main.js": "/BuscaGames/static/js/runtime-main.3546781a.js",
+    "runtime-main.js.map": "/BuscaGames/static/js/runtime-main.3546781a.js.map",
+    "static/css/2.71b35480.chunk.css": "/BuscaGames/static/css/2.71b35480.chunk.css",
+    "static/js/2.55217d40.chunk.js": "/BuscaGames/static/js/2.55217d40.chunk.js",
+    "static/js/2.55217d40.chunk.js.map": "/BuscaGames/static/js/2.55217d40.chunk.js.map",
+    "index.html": "/BuscaGames/index.html",
+    "precache-manifest.66ecaa43c208f35d545985fc8007269e.js": "/BuscaGames/precache-manifest.66ecaa43c208f35d545985fc8007269e.js",
+    "service-worker.js": "/BuscaGames/service-worker.js",
+    "static/css/2.71b35480.chunk.css.map": "/BuscaGames/static/css/2.71b35480.chunk.css.map",
+    "static/css/main.d8fefe28.chunk.css.map": "/BuscaGames/static/css/main.d8fefe28.chunk.css.map",
+    "static/js/2.55217d40.chunk.js.LICENSE.txt": "/BuscaGames/static/js/2.55217d40.chunk.js.LICENSE.txt",
+    "static/media/Logo.svg": "/BuscaGames/static/media/Logo.f6708127.svg",
+    "static/media/NoCoverImage.svg": "/BuscaGames/static/media/NoCoverImage.486af795.svg",
+    "static/media/UserIcon.svg": "/BuscaGames/static/media/UserIcon.59a0f075.svg",
+    "static/media/github.svg": "/BuscaGames/static/media/github.b092258c.svg",
+    "static/media/instagram.svg": "/BuscaGames/static/media/instagram.9629c71c.svg",
+    "static/media/linkedin.svg": "/BuscaGames/static/media/linkedin.406031e0.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3546781a.js",
+    "static/css/2.71b35480.chunk.css",
+    "static/js/2.55217d40.chunk.js",
+    "static/css/main.d8fefe28.chunk.css",
+    "static/js/main.75d37fd1.chunk.js"
+  ]
+}
