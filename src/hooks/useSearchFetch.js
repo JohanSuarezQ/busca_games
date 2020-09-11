@@ -9,7 +9,7 @@ export const useSearchFetch = () => {
 
   useEffect(() => {
     axios({
-      url: "https://api-v3.igdb.com/games",
+      url: "/games",
       method: "POST",
       headers: {
         Accept: "application/json",
