@@ -11,6 +11,7 @@ export const useGameInfo = ( ) => {
             url: '/games',
             method: 'POST',
             headers: {
+                'Access-Control-Allow-Origin': '*',
                 'Accept': 'application/json',
                 'user-key': '3675a446bba75463e0c389758b48cfdd',
             },
