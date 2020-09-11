@@ -1,0 +1,85 @@
+.carousel__inner-slide {
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 2em;
+}
+.info{
+  margin-top: 40px;
+}
+
+
+.carousel {
+  padding: 0 15%;
+  & h2 {
+    font-size: 1.25em;
+    font-family: $paragraphs;
+    background-color: $dark;
+    color: $light;
+    margin: 10px 0;
+  }
+  & p {
+    overflow: hidden;
+    display: -webkit-box;
+    font-size: 0.75em;
+    color: $light-grey;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+  }
+  & img{
+    width: 50px;
+  }
+}
+
+.more {
+  display: flex;
+  align-self: flex-end;
+  background-color: $dark;
+  color: $primary;
+  font-family: $paragraphs;
+  font-size: 0.8em;
+  font-weight: bolder;
+  margin-top: 30px;
+}
+
+.carousel__back-button, .carousel__next-button {
+  color: $light-grey;
+  border: none;
+  position: relative;
+  background: none;
+  
+}
+.carousel__buttons{
+  background: none;
+}
+
+.botonera {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: end;
+  position: relative;
+  background: none;
+  top: 30px;
+  right: 0;
+  z-index: 10;
+ 
+}
+
+.carousel__dot-group{
+    display: flex;
+    background: none;
+    align-self: center;
+}
+
+.carousel__dot {
+    
+    border-radius: 50%;
+    width: 12px;
+    height:12px;
+    margin-right: 5px;
+    border: solid $light-grey 1px;
+}
+
+.carousel__dot--selected{
+    background:$light-grey;
+}
+

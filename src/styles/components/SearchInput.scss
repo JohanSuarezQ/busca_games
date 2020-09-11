@@ -1,0 +1,37 @@
+form {
+  display: grid;
+  justify-items: center;
+  padding: 1.9em 0;
+  grid-gap: 20px;
+  & h2{
+    margin: 0;
+    font-size: 1em;
+    font-family: $titles;
+    background: none;
+    color: $light;
+  }
+}
+
+input {
+  background-color: $light-grey;
+  width: 500px;
+  height: 40px;
+  border-radius: 50px;
+  border: 2px solid $dark-grey;
+  padding: 20px;
+  color: $dark;
+  &:focus{
+    outline: none;
+    border: 2px solid $primary;
+    box-shadow: 0 0 10px 0$primary;
+    transition: 0.3s;
+  }
+  &::placeholder{
+    color:$dark-grey;
+    font-weight: bolder;
+    font-style: italic;
+  }
+  
+}
+
+

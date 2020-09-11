@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: $dark;
+    font-family: $paragraphs;
+}
+
+html, body{
+    color: $light;
+    font-size: 24px;
+    line-height: 26px;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}

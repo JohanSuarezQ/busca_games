@@ -1,0 +1,44 @@
+
+.header__container{
+    display: grid;
+    grid-auto-flow: column;
+    border-bottom: 1px solid $light-grey;
+    height: 80px;
+    align-items: center;
+    padding: 0 40px;
+    & a{
+        color: $light;
+        font-family: $titles;
+    }
+}
+
+.header__logo{
+    display: grid;
+    grid-auto-flow: column;
+    justify-self: start;
+    align-items: center;
+}
+
+.header__nav{
+    height: 80px;
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-items: center;
+    border-bottom: 1px solid $light-grey;
+    & li{
+        display: grid;
+        height: 100%;
+        align-content: center;
+    
+    }
+    & li:hover{
+        border-bottom: 5px solid $primary;
+    }
+}
+
+.header__username{
+    display: grid;
+    grid-auto-flow: column;
+    justify-self: end;
+}
