@@ -9,7 +9,7 @@ export const usePopHome = ( ) => {
         
         axios({
             url: '/games',
-            method: 'POST',
+            method: 'GET',
             headers: {
                 'Access-Control-Allow-Origin': '*',
                 'Accept': 'application/json',
