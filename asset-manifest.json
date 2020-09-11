@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/busca_games/static/css/main.d8fefe28.chunk.css",
-    "main.js": "/busca_games/static/js/main.2d7ce297.chunk.js",
-    "main.js.map": "/busca_games/static/js/main.2d7ce297.chunk.js.map",
+    "main.js": "/busca_games/static/js/main.75d37fd1.chunk.js",
+    "main.js.map": "/busca_games/static/js/main.75d37fd1.chunk.js.map",
     "runtime-main.js": "/busca_games/static/js/runtime-main.0efe8864.js",
     "runtime-main.js.map": "/busca_games/static/js/runtime-main.0efe8864.js.map",
     "static/css/2.71b35480.chunk.css": "/busca_games/static/css/2.71b35480.chunk.css",
     "static/js/2.55217d40.chunk.js": "/busca_games/static/js/2.55217d40.chunk.js",
     "static/js/2.55217d40.chunk.js.map": "/busca_games/static/js/2.55217d40.chunk.js.map",
     "index.html": "/busca_games/index.html",
-    "precache-manifest.34cadb8aa4faa4cde8686225442be05e.js": "/busca_games/precache-manifest.34cadb8aa4faa4cde8686225442be05e.js",
+    "precache-manifest.53c7ff3bee1e8ffb50d1dbc117c9b7b7.js": "/busca_games/precache-manifest.53c7ff3bee1e8ffb50d1dbc117c9b7b7.js",
     "service-worker.js": "/busca_games/service-worker.js",
     "static/css/2.71b35480.chunk.css.map": "/busca_games/static/css/2.71b35480.chunk.css.map",
     "static/css/main.d8fefe28.chunk.css.map": "/busca_games/static/css/main.d8fefe28.chunk.css.map",
@@ -26,6 +26,6 @@
     "static/css/2.71b35480.chunk.css",
     "static/js/2.55217d40.chunk.js",
     "static/css/main.d8fefe28.chunk.css",
-    "static/js/main.2d7ce297.chunk.js"
+    "static/js/main.75d37fd1.chunk.js"
   ]
 }

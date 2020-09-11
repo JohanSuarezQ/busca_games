@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a1703cd7e53e83c9e0e2b31f985b3839",
+    "revision": "385365653ae2cc917010b357bd03874e",
     "url": "/busca_games/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/busca_games/static/css/2.71b35480.chunk.css"
   },
   {
-    "revision": "81443f39827307c27ccc",
+    "revision": "eb94ab033603e7390b46",
     "url": "/busca_games/static/css/main.d8fefe28.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/busca_games/static/js/2.55217d40.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "81443f39827307c27ccc",
-    "url": "/busca_games/static/js/main.2d7ce297.chunk.js"
+    "revision": "eb94ab033603e7390b46",
+    "url": "/busca_games/static/js/main.75d37fd1.chunk.js"
   },
   {
     "revision": "fe77716121d0274bcfd5",
