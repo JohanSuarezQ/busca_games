@@ -8,10 +8,10 @@ export const useGameInfo = ( ) => {
     useEffect(() => {
         
         axios({
-            url: '/games',
+            url: 'https://api-v3.igdb.com/games',
             method: 'POST',
             headers: {
-                'Access-Control-Allow-Origin': '*',
+                'Access-Control-Allow-Origin': 'https://api-v3.igdb.com',
                 'Accept': 'application/json',
                 'user-key': '3675a446bba75463e0c389758b48cfdd',
             },

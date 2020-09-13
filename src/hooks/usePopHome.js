@@ -8,7 +8,7 @@ export const usePopHome = ( ) => {
     useEffect(() => {
         
         axios({
-            url: '/games',
+            url: 'https://api-v3.igdb.com/games',
             method: 'POST',
             headers: {
                 'Access-Control-Allow-Origin': '*',
