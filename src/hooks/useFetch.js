@@ -8,9 +8,8 @@ export const useFetch = ( ) => {
     useEffect(() => {
         
         axios({
-            url: '/games',
+            url: 'https://cors-anywhere.herokuapp.com/https://api-v3.igdb.com/games',
             method: 'POST',
-            credentials: 'include', 
             headers: {
                 'Accept': 'application/json',
                 'user-key': '3675a446bba75463e0c389758b48cfdd',
