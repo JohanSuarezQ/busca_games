@@ -10,10 +10,10 @@ export const useSearchFetch = () => {
   useEffect(() => {
     axios({
       url: "/games",
-      method: "GET",
+      method: "POST",
       headers: {
         'Access-Control-Allow-Origin': '*',
-        Accept: "application/json",
+        "Accept": "application/json",
         "user-key": "3675a446bba75463e0c389758b48cfdd",
       },
       data: `${searchI} fields name, cover.image_id, rating, genres.name;limit 10;`,

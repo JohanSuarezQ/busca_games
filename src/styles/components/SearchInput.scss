@@ -3,7 +3,7 @@ form {
   justify-items: center;
   padding: 1.9em 0;
   grid-gap: 20px;
-  & h2{
+  & h2 {
     margin: 0;
     font-size: 1em;
     font-family: $titles;
@@ -20,18 +20,20 @@ input {
   border: 2px solid $dark-grey;
   padding: 20px;
   color: $dark;
-  &:focus{
+  font-size: 0.8em;
+  &:focus {
     outline: none;
     border: 2px solid $primary;
     box-shadow: 0 0 10px 0$primary;
     transition: 0.3s;
   }
-  &::placeholder{
-    color:$dark-grey;
+  &::placeholder {
+    color: $dark-grey;
     font-weight: bolder;
     font-style: italic;
+    font-size: 0.7em;
   }
-  
 }
-
-
+.search-screen-container{
+  min-height: calc(100vh - 80px - 60px);
+}

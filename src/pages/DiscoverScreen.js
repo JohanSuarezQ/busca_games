@@ -10,8 +10,7 @@ export const DiscoverScreen = () => {
   const imgSize = "720p";
   return (
     <section className="discover__container">
-      <h1>Descubre</h1>
-
+      <h1>Los 50 con mejor calificación</h1>
       <ul className="discover__list">
         {state.map((item) => (
           <Link to="/gamedetails" key={`${item.id}`}>

@@ -1,22 +1,23 @@
-.footer__container{
-    height: 80px;
-    display: grid;
-    grid-auto-flow: column;
-    border-top: 1px solid $light-grey;
-    font-size: 0.75em;
-    align-items: center;
-    justify-content: center;
+.footer__container {
+  height: 60px;
+  display: grid;
+  grid-auto-flow: column;
+  border-top: 1px solid $light-grey;
+  font-size: 0.75em;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
 }
 
-.footer__rrss{
-    display: grid;
-    grid-auto-flow: column;
-   
-    align-content: center;
-    padding: 0 10px;
-    height: 100%;
-    & li a{ 
-        color: $primary;
-        margin-right: 10px;
-    }
+.footer__rrss {
+  display: grid;
+  grid-auto-flow: column;
+  background: none;
+  align-content: center;
+  padding: 0 10px;
+  height: 100%;
+  & li a {
+    color: $primary;
+    margin-right: 10px;
+  }
 }

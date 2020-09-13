@@ -9,7 +9,7 @@ export const useGameInfo = ( ) => {
         
         axios({
             url: '/games',
-            method: 'GET',
+            method: 'POST',
             headers: {
                 'Access-Control-Allow-Origin': '*',
                 'Accept': 'application/json',

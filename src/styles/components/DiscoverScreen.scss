@@ -11,6 +11,7 @@ h2{
     font-weight: bold;
     color: $dark;
     background-color: $light;
+    margin: 0;
 }
 
 .search__title{
@@ -37,6 +38,7 @@ span{
         color:$dark;
         background-color: $light;
         text-align: center  ;
+        margin: 0;
     }
     & h3 {
         font-size: 24px;
@@ -44,6 +46,9 @@ span{
         text-align: center;
         display: flex;
         align-content: center;
+    }
+    & a{
+        text-decoration: none;
     }
 }
 

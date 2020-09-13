@@ -4,17 +4,17 @@
     box-sizing: border-box;
     background-color: $dark;
     font-family: $paragraphs;
+    & a{
+        text-decoration: none;
+    }
 }
+
 
 html, body{
     color: $light;
     font-size: 24px;
     line-height: 26px;
-}
-
-
-a{
-    text-decoration: none;
+    
 }
 
 li{

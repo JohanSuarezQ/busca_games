@@ -11,7 +11,7 @@ export const SearchScreen = () => {
   const imgSize = "720p";
 
   return (
-    <>
+    <div className = "search-screen-container">
       <SearchInput />
       {state.length !== 0 && (
         <h3 className="search__title">Coincidencias para {searchString}</h3>
@@ -69,6 +69,6 @@ export const SearchScreen = () => {
           ))}
         </ul>
       </section>
-    </>
+    </div>
   );
 };
