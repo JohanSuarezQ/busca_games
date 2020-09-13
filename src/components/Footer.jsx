@@ -10,17 +10,17 @@ export const Footer = () => {
       <p>De un gamer para otro. Hecho por JohánSQ</p>
       <ul className="footer__rrss">
         <li>
-          <a target="_blank" href="https://github.com/JohanSuarezQ">
+          <a target="_blank" href="">
             <img src={GithubLogo} alt="" />
           </a>
         </li>
         <li>
-          <a target="_blank" href="https://www.linkedin.com/in/johansq/">
+          <a target="_blank" href="">
             <img src={LinkedinLogo} alt="" />
           </a>
         </li>
         <li>
-          <a target="_blank" href="https://www.instagram.com/johansuarezq/">
+          <a target="_blank" href="">
             <img src={InstagramLogo} alt="" />
           </a>
         </li>
