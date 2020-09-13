@@ -11,6 +11,7 @@ export const useSearchFetch = () => {
     axios({
       url: "/games",
       method: "POST",
+      credentials: 'include', 
       headers: {
         "Accept": "application/json",
         "user-key": "3675a446bba75463e0c389758b48cfdd",

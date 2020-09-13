@@ -10,6 +10,7 @@ export const useGameInfo = ( ) => {
         axios({
             url: '/games',
             method: 'POST',
+            credentials: 'include', 
             headers: {
                 'Access-Control-Allow-Origin': '*',
                 'Accept': 'application/json',
