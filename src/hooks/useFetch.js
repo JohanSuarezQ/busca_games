@@ -3,8 +3,8 @@ import axios from "axios";
 
 export const useFetch = ( ) => {
     
-    const [state, setState] = useState([]);
-
+    const [state, setState] = useState([{ datos: null, loading: true, error:null}]);
+    
     useEffect(() => {
         
         axios({
@@ -18,7 +18,12 @@ export const useFetch = ( ) => {
           })
             .then(response => {
                 const datos = response.data
-                setState(datos)
+                setState({
+                    loading: false,
+                    error: null, 
+                    datos
+                })
+                
             })
             .catch(err => {
                 console.error(err);

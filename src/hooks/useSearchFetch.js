@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 
 export const useSearchFetch = () => {
-  const [state, setState] = useState([]);
+  const [state, setState] = useState([{datos: null, loading:true}]);
   const quera = localStorage.getItem("query");
 
   const searchI = `search ${quera};`;
@@ -19,7 +19,10 @@ export const useSearchFetch = () => {
     })
       .then((response) => {
         const datos = response.data;
-        setState(datos);
+        setState({
+          loading:false, 
+          datos
+        });
       })
       .catch((err) => {
         console.error(err);

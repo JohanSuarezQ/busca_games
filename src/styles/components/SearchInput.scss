@@ -1,7 +1,7 @@
 form {
   display: grid;
   justify-items: center;
-  padding: 1.9em 0;
+  padding: 20px 0;
   grid-gap: 20px;
   & h2 {
     margin: 0;
@@ -36,4 +36,12 @@ input {
 }
 .search-screen-container{
   min-height: calc(100vh - 80px - 60px);
+  & h3.matches-title{
+    font-size: 24px;
+    padding: 5%;
+    justify-content: start;
+    text-align: center;
+    display: flex;
+    align-content: center;
+  }
 }

@@ -5,6 +5,7 @@ import NoCoverImage from "../assets/NoCoverImage.svg";
 
 export const GameInfo = () => {
   const { loading, datos } = useGameInfo();
+  console.log(loading)
   const {
     name,
     platforms,
@@ -26,12 +27,12 @@ export const GameInfo = () => {
   });
   //   const imgSize = 'cover_small'
   //   const imgSize = 'screenshot_med'
-  const imgSize = "cover_big";
+  //   const imgSize = "cover_big";
   //   const imgSize = 'logo_med'
   //   const imgSize = 'screenshot_big'
   //   const imgSize = 'screenshot_huge'
-  //   const imgSize = '720p'
-  //   const imgSize = '1080p'
+     const imgSize = '720p'
+  //  const imgSize = '1080p'
 
   // console.log(id, name, genres)
 
