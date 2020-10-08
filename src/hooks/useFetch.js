@@ -1,35 +1,34 @@
-import { useEffect, useState } from "react"
+import { useEffect, useState } from "react";
 import axios from "axios";
 
-export const useFetch = ( ) => {
-    
-    const [state, setState] = useState([{ datos: null, loading: true, error:null}]);
-    
-    useEffect(() => {
-        
-        axios({
-            url: 'https://cors-anywhere.herokuapp.com/https://api-v3.igdb.com/games',
-            method: 'POST',
-            headers: {
-                'Accept': 'application/json',
-                'user-key': '3675a446bba75463e0c389758b48cfdd',
-            },
-            data: 'fields name, cover.image_id, rating,genres.name;sort popularity desc;where rating >= 90;limit 50;'
-          })
-            .then(response => {
-                const datos = response.data
-                setState({
-                    loading: false,
-                    error: null, 
-                    datos
-                })
-                
-            })
-            .catch(err => {
-                console.error(err);
-            });
+export const useFetch = (data) => {
+  const [state, setState] = useState({
+    datos: null,
+    loading: true,
+    error: null,
+  });
 
-    }, [])
-
-    return state;
-}
+  useEffect(() => {
+    axios({
+      url: "https://cors-anywhere.herokuapp.com/https://api.igdb.com/v4/games",
+      method: "POST",
+      headers: {
+        Accept: "application/json",
+        "Client-ID": "ewpzrn0d3rkyzc5ob9g639s6bolxwf",
+        Authorization: "Bearer erwrceurvv6v9klvpm8bke2x5hk0g6",
+      },
+      data: data,
+    })
+      .then((response) => {
+        setState({
+          datos: response.data,
+          loading: false,
+          error: null,
+        });
+      })
+      .catch((err) => {
+        console.error(err);
+      });
+  }, [data]);
+  return state;
+};

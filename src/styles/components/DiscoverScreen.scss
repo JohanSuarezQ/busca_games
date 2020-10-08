@@ -25,6 +25,7 @@ span{
 }
 
 .discover__container{
+    min-height: calc(100vh - 80px - 60px);
     padding: 5%;
     & p {
         font-family: $paragraphs;
