@@ -7,8 +7,7 @@ export const SearchInput = () => {
   });
 
   const { search } = values;
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  const handleSubmit = () => {
     localStorage.setItem("query", JSON.stringify(search));
   };
 
