@@ -17,7 +17,7 @@ export const AppRouter = () => {
           <Route exact path="/" component={HomeScreen} />
           <Route path="/gamedetails/:id" component={GameInfoScreen} />
           <Route exact path="/discover" component={DiscoverScreen} />
-          <Route exact path="/search" component={SearchScreen} />
+          <Route exact path="/search_games" component={SearchScreen} />
         </Switch>
         <Footer />
       </div>

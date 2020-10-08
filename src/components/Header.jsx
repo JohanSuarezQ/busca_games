@@ -19,7 +19,7 @@ export const Header = () => {
             <Link to="/discover"> Descubre </Link>
           </li>
           <li>
-            <Link to="/search"> Busca </Link>
+            <Link to="/search_games"> Busca </Link>
           </li>
         </ul>
       </nav>

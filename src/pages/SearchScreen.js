@@ -9,7 +9,7 @@ import { Loading } from "../components/Loading";
 export const SearchScreen = () => {
   const searchString = localStorage.getItem("query");
   const { datos, loading } = useFetch(
-    `search ${searchString}; fields name, cover.image_id, rating, genres.name;limit 10;`
+    `search ${searchString}; fields name, cover.image_id, rating, genres.name;limit 20;`
   );
   const imgSize = "cover_big";
   return (

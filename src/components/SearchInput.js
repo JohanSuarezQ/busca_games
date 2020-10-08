@@ -12,7 +12,7 @@ export const SearchInput = () => {
   };
 
   return (
-    <form action="/search" onSubmit={handleSubmit}>
+    <form action="/search_games" onSubmit={handleSubmit}>
       <h2>Encuentra tu juego favorito</h2>
       <div>
         <input
