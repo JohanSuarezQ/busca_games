@@ -6,6 +6,7 @@ import { Carousel } from "react-bootstrap";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import { useFetch } from "../hooks/useFetch";
 import { Loading } from "./Loading";
+import NoCoverImage from '../assets/NoCoverImage.svg'
 
 export const CarouselContainer = () => {
   const { datos, loading } = useFetch(
@@ -21,10 +22,14 @@ export const CarouselContainer = () => {
         <Carousel interval={5000} fade={true}>
           {datos.map((item) => (
             <Carousel.Item key={item.id}>
-              <img
+              {
+                !item.cover ? <img src={NoCoverImage} alt="Carousel Image"/>
+                : <img
                 src={`https://images.igdb.com/igdb/image/upload/t_${imgSize}/${item.cover.image_id}.jpg`}
-                alt=""
+                alt="Carousel Image"
               />
+              }
+              
               <div className="item-info">
                 <h2>{item.name}</h2>
                 <p>{item.summary}</p>
